@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Flipbook Test</title>
+
+<script src="jquery.min.js"></script>
+<script src="turn.min.js"></script>
+
+<style>
+body {
+  background: #333;
+}
+#flipbook {
+  width: 800px;
+  height: 500px;
+  margin: 40px auto;
+}
+#flipbook div {
+  width: 100%;
+  height: 100%;
+}
+#flipbook img {
+  width: 100%;
+  height: 100%;
+}
+</style>
+</head>
+
+<body>
+
+<div id="flipbook">
+  <div><img src="pages/page_1.png"></div>
+  <div><img src="pages/page_2.png"></div>
+  <div><img src="pages/page_3.png"></div>
+  <div><img src="pages/page_4.png"></div>
+  <div><img src="pages/page_5.png"></div>
+  <div><img src="pages/page_6.png"></div>
+  <div><img src="pages/page_7.png"></div>
+  <div><img src="pages/page_8.png"></div>
+  <div><img src="pages/page_9.png"></div>
+  <div><img src="pages/page_10.png"></div>
+  <div><img src="pages/page_11.png"></div>
+  <div><img src="pages/page_12.png"></div>
+  <div><img src="pages/page_13.png"></div>
+  <div><img src="pages/page_14.png"></div>
+  <div><img src="pages/page_15.png"></div>
+  <div><img src="pages/page_16.png"></div>
+  <div><img src="pages/page_17.png"></div>
+  <div><img src="pages/page_18.png"></div>
+  <div><img src="pages/page_19.png"></div>
+  <div><img src="pages/page_20.png"></div>
+  <div><img src="pages/page_21.png"></div>
+  <div><img src="pages/page_22.png"></div>
+  <div><img src="pages/page_23.png"></div>
+  <div><img src="pages/page_24.png"></div>
+  <div><img src="pages/page_25.png"></div>
+  <div><img src="pages/page_26.png"></div>
+  <div><img src="pages/page_27.png"></div>
+  <div><img src="pages/page_28.png"></div>
+  <div><img src="pages/page_29.png"></div>
+  <div><img src="pages/page_30.png"></div>
+  <div><img src="pages/page_31.png"></div>
+  <div><img src="pages/page_32.png"></div>
+  
+
+</div>
+
+<script>
+$(document).ready(function () {
+  $("#flipbook").turn({
+    width: 800,
+    height: 500,
+    autoCenter: true
+  });
+});
+</script>
+
+</body>
+</html>
